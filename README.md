@@ -14,7 +14,7 @@ A simple and interactive **Age Calculator** built using **HTML**, **CSS**, and *
 
 ## Preview 👀  
 
-![Age Calculator Screenshot](path/to/your/screenshot.png)  
+![Age Calculator Screenshot](screenshot.png)  
 
 ---
 
