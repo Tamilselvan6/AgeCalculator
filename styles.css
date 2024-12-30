@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    background: linear-gradient(125deg, orange, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.date {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 32px;
+    border-radius: 2px;
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.calculate {
+    margin-left: 10px;
+    height: 32px;
+    width: 90px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    background: linear-gradient(130deg, rgb(238, 255, 0), rgb(255, 183, 0));
+}
+
+.ageResult {
+    margin-top: 20px;
+    font-size: 12px;
+}
